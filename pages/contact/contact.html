@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <h1>Contact me</h1>
+    <a href="../../index.html">Home</a><br><br>
+    <form action="mailto: bringit902@gmail.com" onsubmit="myFunction()">
+    Name:<br>
+    <input type="text" size="19" name="Contact-Name"><br><br>
+    Email:<br>
+    <input type="email" name="Contact-Email"><br><br> 
+    Phone number:<br>
+    <input type="tel" name="Contact-Number"><br><br>
+    <br>
+    <label for="Gender">Gender:</label>
+    <br>
+    <input type="radio" name="Gender">male
+    <br>
+    <input type="radio" name="Gender">female
+    <br>
+    <input type="radio" name="Gender">rather not to say
+    <br>
+    <br>
+
+    <label for="Sign-UP">Do you want to sign up?:</label>
+        <br>
+    <select name="Sign-UP" id="Sign-UP">
+        <option value="">Yes</option>
+        <option value="">No</option>
+    </select>
+    <br>
+    <br>
+    <label for="Car">May favorite car:</label>
+        <br>
+    <select name="Certificate" id="Certificate">
+        <option value="">Volkswagen</option>
+        <option value="">Chevrolet</option>
+        <option value="">BMW</option>
+    </select>
+    <br>
+    <br>
+
+    Message:<br> 
+    <textarea name="Contact-Message" rows="4" cols="50"> 
+        My name is John Igolo, I studied B.Sc statistics at Federal University Wukari.
+        I am current as a business intelligence analyst with global accelerex limited.
+    </textarea><br><br> 
+    <button type="submit" value="Submit">Send</button>
+
+
+
+    </form>
+    <script>
+        function myFunction() {
+          alert("The form was submitted");
+        }
+        </script>
+</body>
+</html>
